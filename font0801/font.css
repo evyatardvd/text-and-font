@@ -1,0 +1,30 @@
+@font-face{
+	font-family: "evy";
+	src:url("IndieFlower.ttf") format("truetype");
+}
+body{
+	direction: rtl;
+	text-align: right;
+}
+h1{
+	font-family: Tahoma;
+	font-size: 48px;
+}
+nav{
+	float: right;
+	margin:20px;
+	width: 100px;
+}
+section{
+	clear: right;
+	overflow: auto;	
+}
+h2{
+	font: Arial 36px bold;
+}
+h2{
+	Tahoma 20px italic;
+}
+p{
+	font: 14px "evy";
+}
