@@ -1,0 +1,31 @@
+@font-face {
+	font-family: "IndieFlower";
+	src: url("IndieFlower.ttf") format("truetype");
+}
+body {
+	direction: rtl;
+	text-align: right;
+}
+
+h1 {
+	float: right;
+	width: 400px;
+	font: 48px Tahoma;
+}
+section {
+	float: none;
+	margin: 0 40px;
+	width: 1000px;
+	font: 24px IndieFlower;
+}
+section h3 {
+	text-align: center;
+	font: 48px bold;
+	font-family: IndieFlower;
+	text-shadow: 1px 2px 2px red;
+}
+article {
+	letter-spacing: 2px;
+	word-spacing: 10px;
+	line-height: 150%;
+}
